@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\karam\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\karam\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Jam.294775547.00" t="ExcludeRecursive" />
+    <e p="D:\GitHubRepository\Jam" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="FlatKit" t="Include">
+          <e p="[READ ME].txt" t="Include" />
+          <e p="[Render Pipeline] Built-in" t="Include">
+            <e p="ImageEffects" t="Include">
+              <e p="Resources" t="Include">
+                <e p="FogPlus.shader" t="Include" />
+                <e p="OutlinePlus.shader" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="FogImageEffect.cs" t="Include" />
+                <e p="OutlineImageEffect.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Demos" t="Include">
+            <e p="Common" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Motion" t="Include">
+                  <e p="CameraMouseOrbit.cs" t="Include" />
+                  <e p="Editor" t="Include">
+                    <e p="LinearMotionEditor.cs" t="Include" />
+                  </e>
+                  <e p="LinearMotion.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="UvScroller.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Editor" t="Include">
+              <e p="StylizedSurfaceEditor.cs" t="Include" />
+            </e>
+            <e p="GradientSkybox" t="Include">
+              <e p="Editor" t="Include">
+                <e p="GradientSkyboxEditor.cs" t="Include" />
+              </e>
+              <e p="GradientSkybox.shader" t="Include" />
+            </e>
+            <e p="LightPlane.shader" t="Include" />
+            <e p="StylizedSurface" t="Include">
+              <e p="DustyroomStylizedLighting.cginc" t="Include" />
+              <e p="DustyroomTerrainSplatmapCommon.cginc" t="Include" />
+              <e p="StylizedSurface.shader" t="Include" />
+              <e p="StylizedSurfaceCutout.shader" t="Include" />
+              <e p="StylizedSurfaceOutline.shader" t="Include" />
+              <e p="Terrain.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModuleEPOOutline.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Player" t="Include">
+            <e p="PlayerController.cs" t="Include" />
+            <e p="PlayerMoveBehavior.cs" t="Include" />
+            <e p="Walkable.cs" t="Include" />
+          </e>
+          <e p="PlayerInput" t="Include">
+            <e p="IPointerInputRouter.cs" t="Include" />
+            <e p="MouseInputRouter.cs" t="Include" />
+            <e p="SwipeInput.cs" t="Include" />
+            <e p="TouchInputRouter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="unity-scene-reference" t="Include">
+          <e p="unity-scene-reference" t="Include">
+            <e p="Assets" t="Include">
+              <e p="SceneLoader.cs" t="Include" />
+              <e p="source" t="Include">
+                <e p="SceneReference.cs" t="Include" />
+                <e p="SceneReferenceTest.cs" t="Include" />
+                <e p="UnitySceneReference.asmdef" t="Include" />
+              </e>
+            </e>
+            <e p="ProjectSettings" t="Include">
+              <e p="ProjectVersion.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Jam.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="UnitySceneReference.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>
