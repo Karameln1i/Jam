@@ -59,6 +59,52 @@
             </e>
           </e>
         </e>
+        <e p="GUI Kit Casual Game" t="Include">
+          <e p="Extensions" t="Include">
+            <e p="TextMesh Pro" t="Include">
+              <e p="Fonts" t="Include">
+                <e p="LiberationSans - OFL.txt" t="Include" />
+              </e>
+              <e p="Resources" t="Include">
+                <e p="LineBreaking Following Characters.txt" t="Include" />
+                <e p="LineBreaking Leading Characters.txt" t="Include" />
+                <e p="Shaders" t="Include">
+                  <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+                  <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+                  <e p="TMP_Bitmap.shader" t="Include" />
+                  <e p="TMP_SDF Overlay.shader" t="Include" />
+                  <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+                  <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+                  <e p="TMP_SDF-Mobile.shader" t="Include" />
+                  <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+                  <e p="TMP_SDF-Surface.shader" t="Include" />
+                  <e p="TMP_SDF.shader" t="Include" />
+                  <e p="TMP_Sprite.shader" t="Include" />
+                  <e p="TMPro.cginc" t="Include" />
+                  <e p="TMPro_Properties.cginc" t="Include" />
+                  <e p="TMPro_Surface.cginc" t="Include" />
+                </e>
+              </e>
+              <e p="Sprites" t="Include">
+                <e p="EmojiOne Attribution.txt" t="Include" />
+              </e>
+            </e>
+            <e p="UIParticle" t="Include">
+              <e p="hidden particle.shader" t="Include" />
+              <e p="UIParticleSystem.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ResourcesData" t="Include">
+            <e p="Shader &amp; Materials" t="Include">
+              <e p="MobileAdditive.shader" t="Include" />
+              <e p="UIAdditive.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Panel.cs" t="Include" />
+            <e p="PanelControl.cs" t="Include" />
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
@@ -77,17 +123,10 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Player" t="Include">
-            <e p="PlayerController.cs" t="Include" />
-            <e p="PlayerMoveBehavior.cs" t="Include" />
-            <e p="Walkable.cs" t="Include" />
-          </e>
-          <e p="PlayerInput" t="Include">
-            <e p="IPointerInputRouter.cs" t="Include" />
-            <e p="MouseInputRouter.cs" t="Include" />
-            <e p="SwipeInput.cs" t="Include" />
-            <e p="TouchInputRouter.cs" t="Include" />
-          </e>
+          <e p="DragAndDrop.cs" t="Include" />
+          <e p="Part.cs" t="Include" />
+          <e p="PartEdge.cs" t="Include" />
+          <e p="PartEdgeCollisionHandler.cs" t="Include" />
         </e>
         <e p="unity-scene-reference" t="Include">
           <e p="unity-scene-reference" t="Include">
