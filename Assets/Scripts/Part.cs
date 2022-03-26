@@ -16,32 +16,4 @@ public class Part : MonoBehaviour
         _dragAndDrop = GetComponent<DragAndDrop>();
         _connectedEdges = _partEdges.Count;
     }
-
-    private void OnEnable()
-    {
-        for (int i = 0; i < _partEdges.Count; i++)
-        {
-            _partEdges[i].Connected += OnConnected;
-        }
-       
-    }
-
-    private void OnDisable()
-    {
-        for (int i = 0; i < _partEdges.Count; i++)
-        {
-            _partEdges[i].Connected -= OnConnected;
-        }
-    }
-
-    private void OnConnected()
-    {
-        _connectedEdges++;
-        
-        if (_connectedEdges==_partEdges.Count)
-        {
-            _dragAndDrop.enabled = false;
-        }
-      
-    }
 }
