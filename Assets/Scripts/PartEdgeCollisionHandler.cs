@@ -20,4 +20,13 @@ public class PartEdgeCollisionHandler : MonoBehaviour
           partEdge.Connect();
         }
     }
+    
+    private void OnTriggerExit(Collider collider)
+    {
+        if (collider.TryGetComponent<PartEdge>(out PartEdge partEdge))
+        {
+            _partEdge.Disconect();
+            partEdge.Disconect();
+        }
+    }
 }
