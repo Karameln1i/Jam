@@ -7,4 +7,9 @@ public class SceneChanger : MonoBehaviour
     { 
         SceneManager.LoadScene(_sceneValue);
     }
+
+    public void SceneReload()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
