@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 77262bce3ce7f7b40a6cfffe41f1f48a, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 69aa387108d89184f9c421cb5aa79dff, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1256,7 +1256,7 @@ MonoBehaviour:
   _isFirstLaunch: 1
   _sceneReference:
     sceneAsset: {fileID: 102900000, guid: c45a8ed0fe6d4bb48a60329427fff1e3, type: 3}
-    scenePath: Assets/Scenes/SecondLevel.unity
+    scenePath: Assets/Scenes/Level 3.unity
   _level:
     _nextLevel:
       sceneAsset: {fileID: 0}

@@ -5,38 +5,19 @@ using UnityEngine.Events;
 
 public class LevelComplitedPanel : MonoBehaviour
 {
-    [SerializeField] private CanvasGroup _canvasGroup;
-    [SerializeField] private float _alphaDelta;
-    [SerializeField] private float _dellay;
+    [SerializeField] private Animation _animation;
 
     public event UnityAction Opened;
 
     public void Open()
     {
         Opened?.Invoke();
-       // StartCoroutine(FadeIn());
-       StartCoroutine(StartFadeInAfterTime());
+        StartCoroutine(PlayOpenAnimationAfterTime());
     }
 
-    private IEnumerator StartFadeInAfterTime()
+    private IEnumerator PlayOpenAnimationAfterTime()
     {
-        yield return new WaitForSeconds(_dellay);
-        StartCoroutine(FadeIn());
-    }
-    
-    private IEnumerator FadeIn()
-    {
-
-        Debug.Log("fade");
-       float alphaValue = 0;
-
-        while (alphaValue!=1)
-        {
-            alphaValue += _alphaDelta;
-            _canvasGroup.alpha = alphaValue;
-            yield return null;
-        }
-
- 
+        yield return new WaitForSeconds(1f);
+        _animation.Play();
     }
 }
