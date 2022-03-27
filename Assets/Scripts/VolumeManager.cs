@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
+using Michsky.UI.ModernUIPack;
 using UnityEngine;
-using UnityEngine.Accessibility;
 using UnityEngine.UI;
 
 public class VolumeManager : MonoBehaviour
@@ -10,7 +8,7 @@ public class VolumeManager : MonoBehaviour
     private static readonly string MusicPref = " MusicPref";
 
     [SerializeField] private int firstPlayInt;
-    [SerializeField] private Slider musicSlider;
+    [SerializeField] private RadialSlider musicSlider;
     private float musicFloat;
 
     [SerializeField] private AudioSource _musicAudio;
@@ -22,20 +20,20 @@ public class VolumeManager : MonoBehaviour
         if (firstPlayInt == 0)
         {
             musicFloat = 0.75f;
-            musicSlider.value = musicFloat;
+            musicSlider.currentValue = musicFloat;
             PlayerPrefs.SetFloat(MusicPref, musicFloat);
             PlayerPrefs.SetInt(FirstPlay, -1);
         }
         else
         {
             musicFloat = PlayerPrefs.GetFloat(MusicPref);
-            musicSlider.value = musicFloat;
+            musicSlider.currentValue = musicFloat;
         }
     }
 
     public void SaveSoundSetings()
     {
-        PlayerPrefs.SetFloat(MusicPref, musicSlider.value);
+        PlayerPrefs.SetFloat(MusicPref, musicSlider.currentValue);
 
     }
 
@@ -49,7 +47,7 @@ public class VolumeManager : MonoBehaviour
 
     public void UpdateSound()
     {
-        _musicAudio.volume = musicSlider.value;
+        _musicAudio.volume = musicSlider.currentValue / 100;
     }
 
     public void Open()
