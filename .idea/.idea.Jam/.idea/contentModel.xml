@@ -157,10 +157,13 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="CloseSoundSetting.cs" t="Include" />
           <e p="DragAndDrop.cs" t="Include" />
           <e p="Figure.cs" t="Include" />
+          <e p="LevelSound.cs" t="Include" />
           <e p="MainMusic.cs" t="Include" />
           <e p="MenuAnimations.cs" t="Include" />
+          <e p="OpenSoundSettings.cs" t="Include" />
           <e p="Part.cs" t="Include" />
           <e p="PartEdge.cs" t="Include" />
           <e p="PartEdgeCollisionHandler.cs" t="Include" />
@@ -178,6 +181,7 @@
             <e p="SetLevelIndex.cs" t="Include" />
           </e>
           <e p="SceneChanger.cs" t="Include" />
+          <e p="VolumeManager.cs" t="Include" />
         </e>
         <e p="unity-scene-reference" t="Include">
           <e p="unity-scene-reference" t="Include">

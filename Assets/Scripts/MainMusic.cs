@@ -8,11 +8,11 @@ public class MainMusic : MonoBehaviour
    
    private void Awake()
    {
-      DontDestroyOnLoad(this.gameObject);
+      DontDestroyOnLoad(gameObject);
    }
 
    private void Update()
    {
-      Debug.Log(_audioSource.clip.);
+      //Debug.Log(_audioSource.clip.);
    }
 }
