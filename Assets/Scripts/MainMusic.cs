@@ -5,14 +5,14 @@ using UnityEngine;
 public class MainMusic : MonoBehaviour
 {
    [SerializeField] private AudioSource _audioSource;
-   
+
    private void Awake()
    {
-      DontDestroyOnLoad(this.gameObject);
+      DontDestroyOnLoad(gameObject);
    }
 
    private void Update()
    {
-      Debug.Log(_audioSource.clip);
+      //Debug.Log(_audioSource.clip.);
    }
 }
