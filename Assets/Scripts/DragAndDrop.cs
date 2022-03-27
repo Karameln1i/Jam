@@ -12,7 +12,6 @@ public class DragAndDrop : MonoBehaviour
         offset = transform.position - MouseWorldPosition();
         transform.GetComponent<Collider>().enabled = false;
     }
- 
     void OnMouseDrag()
     {
         transform.position = MouseWorldPosition() + offset;
