@@ -19,8 +19,8 @@ public class VolumeManager : MonoBehaviour
 
         if (firstPlayInt == 0)
         {
-            musicFloat = 0.75f;
-            musicSlider.currentValue = musicFloat;
+            //musicFloat = 0.75f;
+           // musicSlider.currentValue = musicFloat;
             PlayerPrefs.SetFloat(MusicPref, musicFloat);
             PlayerPrefs.SetInt(FirstPlay, -1);
         }

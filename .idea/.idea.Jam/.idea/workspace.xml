@@ -23,16 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62cca2d3-fa22-47ca-90d9-16c2d8d2019a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GUI Kit Casual Game/Extensions/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI Kit Casual Game/Extensions/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Figure.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Figure.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PartEdge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PartEdge.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VolumeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VolumeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +53,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayBoobEffects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OpenSoundSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragAndDrop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicPanel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -74,20 +70,21 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPressedChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PartEdgeCollisionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Part.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PartEdge.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayBoobEffects.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene/LoadLastPassedLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene/Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene/QuitButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene/SetLevelIndex.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelSound.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/VolumeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OpenSoundSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CloseSoundSetting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene/RememberLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMusic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene/LevelComplitedPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Figure.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VolumeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PartEdge.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MusicPanel.cs" />
       </list>
     </option>
   </component>
@@ -142,7 +139,7 @@
       <workItem from="1648302197569" duration="3123000" />
       <workItem from="1648322840421" duration="6138000" />
       <workItem from="1648375919823" duration="13216000" />
-      <workItem from="1648401545856" duration="1228000" />
+      <workItem from="1648401545856" duration="3312000" />
     </task>
     <servers />
   </component>

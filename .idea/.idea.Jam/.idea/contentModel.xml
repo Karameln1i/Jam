@@ -140,6 +140,15 @@
           </e>
         </e>
         <e p="Modern UI Pack" t="Include">
+          <e p="Documentation" t="Include">
+            <e p="Documentation.txt" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="ContextMenu.cs" t="Include" />
+            <e p="ExtendedColorPicker.cs" t="Include" />
+            <e p="InitMUIP.cs" t="Include" />
+          </e>
+          <e p="Read Me.txt" t="Include" />
           <e p="Scripts" t="Include">
             <e p="Animated Icon" t="Include">
               <e p="AnimatedIconHandler.cs" t="Include" />
@@ -181,6 +190,7 @@
               <e p="DropdownMultiSelectEditor.cs" t="Include" />
               <e p="HorizontalSelectorEditor.cs" t="Include" />
               <e p="ModalWindowManagerEditor.cs" t="Include" />
+              <e p="NotificationManagerEditor.cs" t="Include" />
               <e p="PieChartEditor.cs" t="Include" />
               <e p="ProgressBarEditor.cs" t="Include" />
               <e p="RadialSliderEditor.cs" t="Include" />
@@ -189,6 +199,7 @@
               <e p="TooltipManagerEditor.cs" t="Include" />
               <e p="UIGradientEditor.cs" t="Include" />
               <e p="UIManagerEditor.cs" t="Include" />
+              <e p="WindowManagerEditor.cs" t="Include" />
             </e>
             <e p="Fixes" t="Include">
               <e p="UIElementInFront.cs" t="Include" />
@@ -201,6 +212,10 @@
             </e>
             <e p="Modal Window" t="Include">
               <e p="ModalWindowManager.cs" t="Include" />
+            </e>
+            <e p="Notification" t="Include">
+              <e p="NotificationManager.cs" t="Include" />
+              <e p="NotificationStacking.cs" t="Include" />
             </e>
             <e p="Progress Bar" t="Include">
               <e p="PBFilled.cs" t="Include" />
@@ -236,6 +251,7 @@
               <e p="UIManagerDropdown.cs" t="Include" />
               <e p="UIManagerHSelector.cs" t="Include" />
               <e p="UIManagerInputField.cs" t="Include" />
+              <e p="UIManagerModalWindow.cs" t="Include" />
               <e p="UIManagerNotification.cs" t="Include" />
               <e p="UIManagerProgressBar.cs" t="Include" />
               <e p="UIManagerProgressBarLoop.cs" t="Include" />
@@ -246,6 +262,11 @@
               <e p="UIManagerSwitch.cs" t="Include" />
               <e p="UIManagerToggle.cs" t="Include" />
               <e p="UIManagerTooltip.cs" t="Include" />
+            </e>
+            <e p="Window" t="Include">
+              <e p="WindowDragger.cs" t="Include" />
+              <e p="WindowManager.cs" t="Include" />
+              <e p="WindowManagerButton.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -273,6 +294,7 @@
           <e p="LevelSound.cs" t="Include" />
           <e p="MainMusic.cs" t="Include" />
           <e p="MenuAnimations.cs" t="Include" />
+          <e p="MusicPanel.cs" t="Include" />
           <e p="OpenSoundSettings.cs" t="Include" />
           <e p="Part.cs" t="Include" />
           <e p="PartEdge.cs" t="Include" />
