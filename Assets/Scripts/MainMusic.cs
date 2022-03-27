@@ -13,6 +13,6 @@ public class MainMusic : MonoBehaviour
 
    private void Update()
    {
-      Debug.Log(_audioSource.clip.);
+      Debug.Log(_audioSource.clip);
    }
 }
