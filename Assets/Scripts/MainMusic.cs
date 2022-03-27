@@ -5,7 +5,7 @@ using UnityEngine;
 public class MainMusic : MonoBehaviour
 {
    [SerializeField] private AudioSource _audioSource;
-   
+
    private void Awake()
    {
       DontDestroyOnLoad(gameObject);
