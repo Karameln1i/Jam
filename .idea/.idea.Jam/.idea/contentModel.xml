@@ -159,11 +159,25 @@
         <e p="Scripts" t="Include">
           <e p="DragAndDrop.cs" t="Include" />
           <e p="Figure.cs" t="Include" />
+          <e p="MainMusic.cs" t="Include" />
+          <e p="MenuAnimations.cs" t="Include" />
           <e p="Part.cs" t="Include" />
           <e p="PartEdge.cs" t="Include" />
           <e p="PartEdgeCollisionHandler.cs" t="Include" />
           <e p="PlayBoobEffects.cs" t="Include" />
           <e p="PlayerPressedChecker.cs" t="Include" />
+          <e p="Scene" t="Include">
+            <e p="LevelComplitedPanel.cs" t="Include" />
+            <e p="LevelIndex.cs" t="Include" />
+            <e p="LoadLastPassedLevel.cs" t="Include" />
+            <e p="LoadSceneButton.cs" t="Include" />
+            <e p="Menu.cs" t="Include" />
+            <e p="NextLevel.cs" t="Include" />
+            <e p="QuitButton.cs" t="Include" />
+            <e p="RememberLevel.cs" t="Include" />
+            <e p="SetLevelIndex.cs" t="Include" />
+          </e>
+          <e p="SceneChanger.cs" t="Include" />
         </e>
         <e p="unity-scene-reference" t="Include">
           <e p="unity-scene-reference" t="Include">

@@ -23,10 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62cca2d3-fa22-47ca-90d9-16c2d8d2019a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GUI Kit Casual Game/Extensions/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI Kit Casual Game/Extensions/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GUI Kit Casual Game/ResourcesData/Sprite/Common/tab_icon_sort.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI Kit Casual Game/ResourcesData/Sprite/Common/tab_icon_sort.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/Icons/Home.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Materials/Icons/Home.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecondLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +42,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMusic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PartEdge.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Part.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PartEdgeCollisionHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragAndDrop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/LevelComplitedPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Figure.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/LevelIndex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Part.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayBoobEffects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene/QuitButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragAndDrop.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -62,6 +72,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PartEdge.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Figure.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayBoobEffects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scene/LoadLastPassedLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scene/LevelComplitedPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scene/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scene/QuitButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scene/SetLevelIndex.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMusic.cs" />
       </list>
     </option>
   </component>
@@ -82,7 +98,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -115,6 +131,7 @@
       <workItem from="1648282451433" duration="6710000" />
       <workItem from="1648302197569" duration="3123000" />
       <workItem from="1648322840421" duration="6138000" />
+      <workItem from="1648375919823" duration="5782000" />
     </task>
     <servers />
   </component>
@@ -134,6 +151,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
