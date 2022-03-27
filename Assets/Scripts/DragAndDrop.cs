@@ -15,6 +15,7 @@ public class DragAndDrop : MonoBehaviour
     void OnMouseDrag()
     {
         transform.position = MouseWorldPosition() + offset;
+        //Я чмо
     }
  
     void OnMouseUp()
