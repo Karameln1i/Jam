@@ -10,6 +10,8 @@ public class Figure : MonoBehaviour
     [SerializeField] private PlayBoobEffects _playBoobEffects;
     [SerializeField] private GameObject _fullFigure;
     [SerializeField] private GameObject _allFigures;
+    [SerializeField] private GameObject _handle;
+    [SerializeField] private bool _isFirstLevel;
     
     private int _connectedEdges;
 
@@ -52,6 +54,10 @@ public class Figure : MonoBehaviour
         {
             //Debug.Log("готово");
             Collected?.Invoke();
+            if (_isFirstLevel)
+            {
+                _handle.SetActive(false);
+            }
         }
         else
         {
